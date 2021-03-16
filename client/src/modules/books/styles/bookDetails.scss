@@ -1,0 +1,26 @@
+@import "../../../App.scss";
+
+.book-details{
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
+
+    &__left{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        background-color: #e9e7e7;
+        padding: 20px 40px;
+
+        img{
+            width: 300px;
+        }
+    }
+
+    &__right{
+        flex: 1;
+        padding: 20px 40px;
+    }
+}
