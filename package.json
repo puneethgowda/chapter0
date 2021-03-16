@@ -1,0 +1,17 @@
+{
+  "name": "chaptero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-loader-spinner": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npm run client && npm run server",
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}
